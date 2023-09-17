@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Comfortaa&family=Montserrat&display=swap');
+body{
+    font-family: 'Comfortaa', cursive;
+    background-color: #f1f6ebe1;
+}
+.product-name{
+background-color:rgb(0, 255, 34);
+border: 2px solid;
+
+}
+.product-price{
+    background-color:gold;
+    border: 3px solid;
+    display: inline;
+    text-align: left;
+}
+.img {
+    margin: right;
+}
