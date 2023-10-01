@@ -2,10 +2,11 @@
 
 body{
     font-family: 'Comfortaa', cursive;
-    background-color: #F6F4EB;
+    background-color: #bffb71
+    ;
 }
 header{
-    background: #91C8E4;
+    background: #996AD6;
     display: flex;
     flex-direction: row;
     height: 100px;
@@ -15,7 +16,7 @@ main{
     height: 709px;
 }
 footer{
-    background: #749BC2;
+    background: #996AD6;
     height: 100px;
     flex-shrink: 0;
 }
@@ -45,7 +46,7 @@ footer{
     height: 200px;
         background: url(https://hamleys.ru/upload/iblock/b32/b32ec413d39a8760a70cba895122ce5e.jpg);
     background-size: cover;
-    width:224px;
+    width:200px;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -173,7 +174,7 @@ footer{
     transition: all 0.3s ease;
     position: relative;
     display: inline-block;
-     box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5),
+    /* box-shadow:inset 2px 2px 2px 0px rgba(255,255,255,.5), */
      7px 7px 20px 0px rgba(0,0,0,.1),
      4px 4px 5px 0px rgba(0,0,0,.1);
     outline: none;
@@ -250,5 +251,15 @@ footer{
     .btn-7 span:hover:after {
       width: 100%;
     }
+   @media (min-width:290px) and (max-width: 814px){
+    .products{
+      height: 500px;
+          
+      
+      width:280px;
+      
+  }                                              
+                                                          
+}                                     
+    
   
-
